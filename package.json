@@ -1,0 +1,15 @@
+{
+  "name": "tailwind4-issues-reproduction",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:profoundry-us/tailwind4-issues-reproduction.git",
+  "author": "Topher Fangio <topher@profoundry.us>",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/cli": "^0.0.0-insiders.cc3e852",
+    "tailwindcss": "^0.0.0-insiders.cc3e852"
+  },
+  "scripts": {
+    "build:css": "./node_modules/.bin/tailwindcss -i ./application.tailwind.css -o ./build/application.css"
+  }
+}
